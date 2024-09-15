@@ -1,0 +1,86 @@
+*{ 
+    
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #b96363;
+    padding: 10px 20px;
+    color: #fff;
+}
+
+
+.logo a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 600;
+  
+}
+
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color:white;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #5c4545;
+}
+.header-text{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration:underline;
+}
+
+
+.contact-bg{
+    height: 40vh;
+    background-image: url(images/Kenya.jpg) ;
+    background-position: 50% 100%;
+    background-repeat: repeat;
+    background-attachment: fixed;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+h1{
+    color: red;
+    text-decoration: underline;
+    font-style: italic;
+}
+.content h1{
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+}
+.content-3 h1{
+    color: blue;
+}
